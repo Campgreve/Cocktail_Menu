@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://multicenterschool.com/wp-content/uploads/2023/07/shutterstock_2163180249-1-scaled.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    background-color: #212121;
+
+}
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+    display: none;
+}
+.classeModal::-webkit-scrollbar{
+    display: none;
+}
+
+/* NAVBAR */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+/* MAIN */
+
+h1{
+    text-align: center;
+}
+
+#nomeCocktail{
+    margin-top: 1rem;
+    margin-left: 5%;
+    border-radius: 5px;
+    border-color: #212121;
+    border-style:dashed;
+    width: 35%;
+}
+.ricercaCocktail{
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    margin-top: 5%;
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+    
+}
+.bottoneChiamaAPI{
+    margin-top: 2rem;
+    margin-left: 5%;
+    display: block;
+}
+
+#cocktailTrovati{
+    margin-top: 5rem;
+    gap: 10rem;
+    justify-content: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    scale: 1;
+    transition:540ms;
+}
+
+.card:hover{
+    scale: 1.1;
+    transition: 540ms;
+}
+
+.immagineDrink{
+    border-radius: 15px;
+    
+}
+
+
+/* CATCH ERROR */
+.notFoundClass{
+    text-align: center;
+    color:#E63946;
+    margin-bottom: -1rem;
+}
+
